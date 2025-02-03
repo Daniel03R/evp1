@@ -1,0 +1,179 @@
+:root {
+    --color1: #474439;
+    --color2: #91908c;
+    --color3: #26100B;
+    --color4: #898484;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: var(--color4);
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
+}
+
+#cabecera {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color1);
+    padding: 5px 20px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+#logo img {
+    width: auto;
+    height: 60px;
+    object-fit: contain;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+#banner img {
+    height: 60px;
+    object-fit: contain;
+}
+
+#cuerpo {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+#indice {
+    width: 20%;
+    background-color: var(--color2);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#indice ul {
+    list-style: none;
+    padding: 0;
+}
+
+#indice li {
+    margin-bottom: 10px;
+}
+
+#indice a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+}
+
+#indice a:hover {
+    background-color: var(--color3);
+}
+
+#contenido {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#contenido img {
+    width: 300px;
+    height: 200px; 
+    object-fit: contain;
+}
+
+
+h1, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.parrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.juego1, .juego2, .juego3, .juego4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.juego1 img, .juego2 img, .juego3 img, .juego4 img {
+    width: 100%;
+    height: auto;
+}
+
+#comentarios {
+    width: 20%;
+    background-color: var(--color2);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#comentarios h3 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+#comentarios ol {
+    padding-left: 20px;
+}
+
+#comentarios li {
+    color: white;
+    margin-bottom: 10px; 
+    padding: 8px;
+    background-color: rgba(242, 200, 75, 0.2); 
+    border-radius: 5px; 
+}
+
+
+#pie {
+    background-color: var(--color3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#pie p {
+    margin: 5px 0;
+}
+
+
+#pie .parrafo {
+    font-weight: 400;
+}
+
+#pie img {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
